@@ -40,5 +40,14 @@ function guestThree() {
     guestScore.textContent = guest
  }
 
+ function resetScore() {
 
+    homeScore.textContent = home 
+    homeScore.textcontent = 0
+    home = 0
+
+    guestScore.textContent = guest
+    guestScore.textcontent = 0
+    guest = 0
+ }
 
